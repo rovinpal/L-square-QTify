@@ -1,6 +1,7 @@
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import React from "react";
-import HomePage from "./pages/Home";
+import HomePage from "./pages/HomePage/Home";
+import AlbumPage from "./pages/AlbumPage/Album";
 
 function App() {
     return (
@@ -8,6 +9,7 @@ function App() {
             <Router>
                 <Routes>
                     <Route path="/" element={<HomePage />}/>
+                    <Route path="/album/:albumId" element={<AlbumPage />} />
                 </Routes>
             </Router>
         </div>
