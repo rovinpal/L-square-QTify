@@ -134,7 +134,7 @@ const FeedBackModal = () => {
               backgroundColor: "#34C94B",
               color: "#FFFFFF",
               fontWeight: "600",
-              width: "200px",
+              width: "250px",
               height: "50px",
               textTransform: "none",
               borderRadius: "8px",
