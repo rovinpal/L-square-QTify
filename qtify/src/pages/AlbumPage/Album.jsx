@@ -190,7 +190,18 @@ const AlbumPage = () => {
 
                 {album.songs.map((song) => (
                     <React.Fragment key={song.id}>
-                        <Grid container alignItems="center" sx={{ mb: 2, mt: 2, px: 1 }}>
+                        <Grid 
+                            container 
+                            alignItems="center" 
+                            sx={{ 
+                                mb: 2, 
+                                mt: 2, 
+                                px: 1,
+                                cursor: "pointer",
+                                "&:hover": { backgroundColor: "#1f1f1f" }
+                            }}
+                            onClick={() => {}} 
+                        >
                             <Grid item xs={6}>
                             <Box display="flex" alignItems="center">
                                 <img
