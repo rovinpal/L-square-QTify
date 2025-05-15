@@ -4,7 +4,7 @@ import { Card, CardMedia, CardContent, Typography, Chip, Box } from "@mui/materi
 
 const AlbumCard = ({ album, songs }) => {
     return (
-        <Link to={`/album/${album.title}`} style={{ textDecoration: "none", color: "inherit" }}>
+        <Link to={`/album/${album.id}`} style={{ textDecoration: "none", color: "inherit" }}>
             <Box sx={{ height: 250, width: 159, overflow: "hidden", display: "flex", flexDirection: "column" }}>
                 <Card sx={{ position: "relative", height: 200, width: "100%", borderRadius: 2 }}>
                     <CardMedia

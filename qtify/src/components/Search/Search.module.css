@@ -42,3 +42,81 @@
     font-size: 12px;
   }
    */
+
+.container {
+  position: relative;
+  width: 630px;
+  z-index: 20;
+}
+
+.dropdown {
+  position: absolute;
+  top: 105%;
+  width: 100%;
+  max-height: 300px;
+  overflow-y: auto;
+  background-color: #1e1e1e;
+  border: 1px solid #34C94B;
+  z-index: 999;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Scrollbar styling */
+.dropdown::-webkit-scrollbar {
+  width: 8px;
+}
+
+.dropdown::-webkit-scrollbar-thumb {
+  background-color: #34c94b;
+  border-radius: 8px;
+}
+
+.listElement {
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  cursor: pointer;
+  border-bottom: 1px solid #2c2c2c;
+  color: white;
+  transition: background 0.2s ease;
+}
+
+.listElement:hover {
+  background-color: #2e58ff;
+}
+
+.albumImage {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-right: 12px;
+}
+
+.albumText {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.albumTitle {
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.albumArtists {
+  font-size: 12px;
+  color: #ccc;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.noResults {
+  padding: 10px 12px;
+  color: #999;
+}

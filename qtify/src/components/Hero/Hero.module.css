@@ -1,10 +1,10 @@
 .hero {
-    background-color: #121212;
-    height: 270px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  background-color: #121212;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .heroContainer{
   height: 212px;
@@ -15,15 +15,15 @@
 }
   
 .textContainer {
- width: 556px;
- height: 100px;
- display: flex;
- flex-direction: column;
- color: #FFFFFF;
- justify-content: center;
- align-items: center;
- text-align: center;
- overflow: hidden;
+  width: 556px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
 }
 
 h1{
